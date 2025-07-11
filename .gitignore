@@ -2,8 +2,7 @@
 build/
 
 # Ignore all dist files EXCEPT the .exe
-dist/*
-!dist/*.exe
+dist/
 
 # Installer log
 *.spec
