@@ -1,0 +1,18 @@
+# PyInstaller build folders
+build/
+
+# Ignore all dist files EXCEPT the .exe
+dist/*
+!dist/*.exe
+
+# Installer log
+*.spec
+
+# Other unwanted OS or editor files
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE
+.vscode/
+.idea/
